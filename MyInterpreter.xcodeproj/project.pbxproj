@@ -1,0 +1,20 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+000000000000000000000001 = { isa = PBXProject; buildConfigurationList = 000000000000000000000008; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en, Base); mainGroup = 000000000000000000000002; productRefGroup = 000000000000000000000003; projectDirPath = ""; targets = (000000000000000000000004); };
+000000000000000000000002 = { isa = PBXGroup; children = (000000000000000000000005,000000000000000000000003); sourceTree = "<group>"; };
+000000000000000000000003 = { isa = PBXGroup; children = (000000000000000000000006); name = Products; sourceTree = "<group>"; };
+000000000000000000000004 = { isa = PBXNativeTarget; buildConfigurationList = 000000000000000000000009; buildPhases = (000000000000000000000007); buildRules = (); dependencies = (); name = MyInterpreter; productName = MyInterpreter; productReference = 000000000000000000000006; productType = "com.apple.product-type.application"; };
+000000000000000000000005 = { isa = PBXGroup; children = (00000000000000000000000E,00000000000000000000000F); path = MyInterpreter; sourceTree = "<group>"; };
+000000000000000000000006 = { isa = PBXFileReference; explicitFileType = wrapper.application; path = MyInterpreter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+000000000000000000000007 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000010,000000000000000000000011); runOnlyForDeploymentPostprocessing = 0; };
+000000000000000000000008 = { isa = XCConfigurationList; buildConfigurations = (00000000000000000000000A,00000000000000000000000B); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+000000000000000000000009 = { isa = XCConfigurationList; buildConfigurations = (00000000000000000000000C,00000000000000000000000D); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+00000000000000000000000A = { isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_VERSION = 5.0;}; name = Debug; };
+00000000000000000000000B = { isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_VERSION = 5.0;}; name = Release; };
+00000000000000000000000C = { isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_IDENTITY = "-"; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.baramsoft.MyInterpreter; PRODUCT_NAME = MyInterpreter; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; INFOPLIST_KEY_NSMicrophoneUsageDescription = "Listen to English conversation when you start transcription."; INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Create live English captions from microphone audio.";}; name = Debug; };
+00000000000000000000000D = { isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_IDENTITY = "-"; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.baramsoft.MyInterpreter; PRODUCT_NAME = MyInterpreter; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; INFOPLIST_KEY_NSMicrophoneUsageDescription = "Listen to English conversation when you start transcription."; INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Create live English captions from microphone audio.";}; name = Release; };
+00000000000000000000000E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSpeech.swift; sourceTree = "<group>"; };
+000000000000000000000010 = { isa = PBXBuildFile; fileRef = 00000000000000000000000E; };
+00000000000000000000000F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInterpreterApp.swift; sourceTree = "<group>"; };
+000000000000000000000011 = { isa = PBXBuildFile; fileRef = 00000000000000000000000F; };
+}; rootObject = 000000000000000000000001; }
